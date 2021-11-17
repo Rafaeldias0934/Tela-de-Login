@@ -90,7 +90,6 @@ body.active {
 }
 .formAx.active .signinForm {
     left: -100%;
-    transition-delay: 0s;
 }
 .formAx .form form {
     width: 100%;
