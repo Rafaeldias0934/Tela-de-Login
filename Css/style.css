@@ -90,6 +90,15 @@ body.active {
 }
 .formAx.active .signinForm {
     left: -100%;
+    transition-delay: 0s;
+}
+.formAx .signupForm {
+    left: 100%;
+    transition-delay: 0s;
+}
+.formAx.active .signupForm {
+    left: 0;
+    transition-delay: 0.25s;
 }
 .formAx .form form {
     width: 100%;
@@ -116,6 +125,9 @@ body.active {
     color: #fff;
     max-width: 100px;
     cursor: pointer;
+}
+.formAx.active .signupForm input[type="submit"] {
+
 }
 .formAx .form form .forgot {
     color: #333;
